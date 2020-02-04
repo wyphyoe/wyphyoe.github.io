@@ -1,171 +1,204 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Wai Yan Phyoe</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
-		<link rel="shortcut icon" type="image/png" href="https://wyphyoe.github.io/favicon.ico"/>
-		<meta name="p:domain_verify" content="a59bba29b068cf290f5540c0f84024ee"/>
-		<!-- Font awesome -->
-		<script src="https://kit.fontawesome.com/b97159ef49.js" crossorigin="anonymous"></script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115629455-3"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', 'UA-115629455-3');
-		</script>
-	</head>
-	<body>
-		<div class="container">
-			<div class="hero">
-				<h1 class="name"><strong>Wai Yan</strong> Phyoe</h1>
-				<span class="job-title">Developer</span>
-				<span class="email">
-					<a href="mailto:waiyanphyoe@techbase.software">waiyanphyoe@techbase.software</a>
-				</span>
-				<span class="phone">
-					<a href="tel:+959977773444">09.9.7777.3.444</a>
-				</span>
-				<h2 class="lead">Development and design of mobile applications
-				for startups and large companies as a software service provider called
-				<a href="https://techbase.software">TechbaseSoftware</a>.</2>
-			</div>
-		</div>
-		<!-- Skills and intrest section -->
-		<div class="container">
-			<div class="sections">
-				<h2 class="section-title">Skills</h2>
-				<div class="list-card">
-					<span class="exp">+ 2 years</span>
-					<div>
-						<h3>Development tools</h3>
-						<span>Android, iOS, Spring, MySQL, Wordpress, AdobeXD, AWS, DigitalOcean</span>
-					</div>
-				</div>
-			</div>
-			<div class="sections">
-				<h2 class="section-title">Interests</h2>
-				<div class="list-card">
-					<div>
-						<h3>Programming languages</h3>
-						<span>Java, Kotlin, Swift</span>
-					</div>
-				</div>
-				<div class="list-card">
-					<div>
-						<h3>Hacking</h3>
-						<span>Linux, Crawlers, Bots, Network</span>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Achievements -->
-		<div class="container cards">
-			<div class="card">
-				<div class="skill-level">
-					<h2>20</h2>
-					<span>+</span>
-				</div>
-				<div class="skill-meta">
-					<h3>Projects</h3>
-					<span>Adapting and creating solutions for customer's needs</span>
-				</div>
-			</div>
-			<div class="card">
-				<div class="skill-level">
-					<h2>50</h2>
-					<span>%</span>
-				</div>
-				<div class="skill-meta">
-					<h3>Mobile</h3>
-					<span>Applications development integrating third-party services and mobile client(s)</span>
-				</div>
-			</div>
-			<div class="card">
-				<div class="skill-level">
-					<h2>30</h2>
-					<span>%</span>
-				</div>
-				<div class="skill-meta">
-					<h3>Technical solutions</h3>
-					<span>Such as web services, scripts, configurations</span>
-				</div>
-			</div>
-			<div class="card">
-				<div class="skill-level">
-					<h2>20</h2>
-					<span>%</span>
-				</div>
-				<div class="skill-meta">
-					<h3>Leading</h3>
-					<span>Web projects and ensure the quality of delivery</span>
-				</div>
-			</div>
-		</div>
-		<!-- Timeline -->
-		<div class="container">
-			<ol class="timeline">
-				<li>
-					<p class="line">Experiences</p>
-					<span class="point"></span>
-					<p class="description">
-						Senior Android Developer
-					</p>
-					<span class="date">Sept. 2019 - Today</span>
-				</li>
-				<li>
-					<span class="point"></span>
-					<p class="description">
-						Freelance
-					</p>
-					<span class="date">Nov. 2017 - Today</span>
-				</li>
-				<li>
-					<p class="line">Education</p>
-					<span class="point"></span>
-					<p class="description">
-						University of Computer Studies, Taungoo
-					</p>
-					<span class="date">2013 - 2017</span>
-				</li>
-			</ol>
-		</div>
-		<br>
-		<br>
-		<footer class="container">
-			<span
-				style="font-size: 28px;
+
+<head>
+    <title>Wai Yan Phyoe</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+    <link rel="shortcut icon" type="image/png" href="https://wyphyoe.github.io/favicon.ico" />
+    <meta name="p:domain_verify" content="a59bba29b068cf290f5540c0f84024ee" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/b97159ef49.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115629455-3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-115629455-3');
+    </script>
+</head>
+
+<body>
+    <!--     Start Facebook Messenger Chat Widget  -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml: true,
+            version: 'v6.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="1966848260205107">
+    </div>
+    <!--     End Facebook Messenger Chat Widget  -->
+    <div class="container">
+        <div class="hero">
+            <h1 class="name"><strong>Wai Yan</strong> Phyoe</h1>
+            <span class="job-title">Developer</span>
+            <span class="email">
+                <a href="mailto:waiyanphyoe@techbase.software">waiyanphyoe@techbase.software</a>
+            </span>
+            <span class="phone">
+                <a href="tel:+959977773444">09.9.7777.3.444</a>
+            </span>
+            <h2 class="lead">Development and design of mobile applications
+                for startups and large companies as a software service provider called
+                <a href="https://techbase.software">TechbaseSoftware</a>.</2>
+        </div>
+    </div>
+    <!-- Skills and intrest section -->
+    <div class="container">
+        <div class="sections">
+            <h2 class="section-title">Skills</h2>
+            <div class="list-card">
+                <span class="exp">+ 2 years</span>
+                <div>
+                    <h3>Development tools</h3>
+                    <span>Android, iOS, Spring, MySQL, Wordpress, AdobeXD, AWS, DigitalOcean</span>
+                </div>
+            </div>
+        </div>
+        <div class="sections">
+            <h2 class="section-title">Interests</h2>
+            <div class="list-card">
+                <div>
+                    <h3>Programming languages</h3>
+                    <span>Java, Kotlin, Swift</span>
+                </div>
+            </div>
+            <div class="list-card">
+                <div>
+                    <h3>Hacking</h3>
+                    <span>Linux, Crawlers, Bots, Network</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Achievements -->
+    <div class="container cards">
+        <div class="card">
+            <div class="skill-level">
+                <h2>20</h2>
+                <span>+</span>
+            </div>
+            <div class="skill-meta">
+                <h3>Projects</h3>
+                <span>Adapting and creating solutions for customer's needs</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="skill-level">
+                <h2>50</h2>
+                <span>%</span>
+            </div>
+            <div class="skill-meta">
+                <h3>Mobile</h3>
+                <span>Applications development integrating third-party services and mobile client(s)</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="skill-level">
+                <h2>30</h2>
+                <span>%</span>
+            </div>
+            <div class="skill-meta">
+                <h3>Technical solutions</h3>
+                <span>Such as web services, scripts, configurations</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="skill-level">
+                <h2>20</h2>
+                <span>%</span>
+            </div>
+            <div class="skill-meta">
+                <h3>Leading</h3>
+                <span>Web projects and ensure the quality of delivery</span>
+            </div>
+        </div>
+    </div>
+    <!-- Timeline -->
+    <div class="container">
+        <ol class="timeline">
+            <li>
+                <p class="line">Experiences</p>
+                <span class="point"></span>
+                <p class="description">
+                    Senior Android Developer
+                </p>
+                <span class="date">Sept. 2019 - Today</span>
+            </li>
+            <li>
+                <span class="point"></span>
+                <p class="description">
+                    Freelance
+                </p>
+                <span class="date">Nov. 2017 - Today</span>
+            </li>
+            <li>
+                <p class="line">Education</p>
+                <span class="point"></span>
+                <p class="description">
+                    University of Computer Studies, Taungoo
+                </p>
+                <span class="date">2013 - 2017</span>
+            </li>
+        </ol>
+    </div>
+    <br>
+    <br>
+    <footer class="container">
+        <span style="font-size: 28px;
 				margin-top: 36px;
 				margin-bottom: 36px;">
-				<a href="https://www.facebook.com/waiyanphyoe.x/">
-					<i class="fab fa-facebook-square"></i>
-				</a> .
-				<a href="https://www.linkedin.com/in/waiyanphyoe/">
-					<i class="fab fa-linkedin"></i>
-				</a> .
-				<a href="https://github.com/wyphyoe/">
-					<i class="fab fa-github-square"></i>
-				</a>
-			</span>
-		</footer>
-		<br>
-		<!-- WhatsHelp.io widget -->
-		<script type="text/javascript">
-		(function () {
-		var options = {
-		facebook: "1966848260205107", // Facebook page ID
-		call_to_action: "Send Message", // Call to action
-		position: "right", // Position may be 'right' or 'left'
-		};
-		var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-		var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-		s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-		var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-		})();
-		</script>
-		<!-- /WhatsHelp.io widget -->
-	</body>
+            <a href="https://www.facebook.com/waiyanphyoe.x/">
+                <i class="fab fa-facebook-square"></i>
+            </a> .
+            <a href="https://www.linkedin.com/in/waiyanphyoe/">
+                <i class="fab fa-linkedin"></i>
+            </a> .
+            <a href="https://github.com/wyphyoe/">
+                <i class="fab fa-github-square"></i>
+            </a>
+        </span>
+    </footer>
+    <br>
+    <!-- WhatsHelp.io widget -->
+    <script type="text/javascript">
+    (function() {
+        var options = {
+            facebook: "1966848260205107", // Facebook page ID
+            call_to_action: "Send Message", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol,
+            host = "getbutton.io",
+            url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function() { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+    </script>
+    <!-- /WhatsHelp.io widget -->
+</body>
+
 </html>
